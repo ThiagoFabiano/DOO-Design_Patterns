@@ -19,7 +19,7 @@ public class Caretaker
             return;
         }
         
-        // Se não especificar índice, usa o último save
+
         if (saveIndex == -1)
         {
             saveIndex = savedStates.Count - 1;

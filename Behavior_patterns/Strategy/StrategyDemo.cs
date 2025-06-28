@@ -51,11 +51,5 @@ public class StrategyDemo
             Console.WriteLine();
         }
         
-        Console.WriteLine("=== Vantagens do Strategy Pattern ===");
-        Console.WriteLine("✅ Algoritmos intercambiáveis em tempo de execução");
-        Console.WriteLine("✅ Elimina condicionais complexas (if/switch)");
-        Console.WriteLine("✅ Facilita adicionar novas estratégias");
-        Console.WriteLine("✅ Código mais limpo e testável");
-        Console.WriteLine("✅ Usado em sistemas de pagamento, IA, algoritmos");
     }
 }

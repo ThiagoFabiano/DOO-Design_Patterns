@@ -26,16 +26,6 @@ public class MediatorDemo
         Console.WriteLine("\n4. Mensagem para todos:");
         bob.SendMessage("Que tal marcarmos uma reunião?");
         
-        Console.WriteLine("\n=== Como funciona o Mediator ===");
-        Console.WriteLine("✅ Usuários não se comunicam diretamente");
-        Console.WriteLine("✅ Todas as mensagens passam pelo mediador");
-        Console.WriteLine("✅ Mediador distribui mensagens para todos");
-        Console.WriteLine("✅ Facilita adicionar novos usuários");
-        Console.WriteLine("✅ Centraliza a lógica de comunicação");
-        
-        Console.WriteLine("\n=== Sem Mediator seria assim ===");
-        Console.WriteLine("❌ Cada usuário precisaria conhecer todos os outros");
-        Console.WriteLine("❌ Lógica de comunicação espalhada");
-        Console.WriteLine("❌ Difícil de manter e estender");
+
     }
 }

@@ -34,10 +34,6 @@ public class InterpreterDemo
         );
         Console.WriteLine($"Resultado: {expression4.Interpret()}");
         
-        Console.WriteLine("\n=== Como funciona o Interpreter ===");
-        Console.WriteLine("✅ Cada operação é uma classe separada");
-        Console.WriteLine("✅ Expressões são compostas em árvore");
-        Console.WriteLine("✅ Método Interpret() calcula o resultado");
-        Console.WriteLine("✅ Facilita adicionar novas operações");
+
     }
 }

@@ -44,10 +44,6 @@ public class IteratorDemo
         
         Console.WriteLine($"\nTotal de músicas na playlist: {playlist.Count}");
         
-        Console.WriteLine("\n=== Vantagens do Iterator Pattern ===");
-        Console.WriteLine("✅ Diferentes formas de percorrer a coleção");
-        Console.WriteLine("✅ Interface uniforme (foreach)");
-        Console.WriteLine("✅ Encapsula a lógica de iteração");
-        Console.WriteLine("✅ Suporte nativo do C# com IEnumerable");
+
     }
 }

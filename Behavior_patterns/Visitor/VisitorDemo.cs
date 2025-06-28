@@ -45,17 +45,6 @@ public class VisitorDemo
             Console.WriteLine();
         }
         
-        Console.WriteLine("=== Vantagens do Visitor Pattern ===");
-        Console.WriteLine("✅ Adiciona operações sem modificar elementos");
-        Console.WriteLine("✅ Centraliza operações relacionadas em uma classe");
-        Console.WriteLine("✅ Facilita adicionar novos visitantes");
-        Console.WriteLine("✅ Separa algoritmo da estrutura de dados");
-        Console.WriteLine("✅ Usado em compiladores, analisadores, transformações");
-        
-        Console.WriteLine("\n=== Como funciona ===");
-        Console.WriteLine("🔹 Elemento chama visitor.Visit(this)");
-        Console.WriteLine("🔹 Visitor executa operação específica do tipo");
-        Console.WriteLine("🔹 Double dispatch: método correto é escolhido");
-        Console.WriteLine("🔹 Diferentes visitors = diferentes operações");
+
     }
 }

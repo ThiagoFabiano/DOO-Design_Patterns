@@ -33,10 +33,6 @@ public class CommandDemo
         commandManager.Undo();
         commandManager.Undo(); 
         
-        Console.WriteLine("\n=== Vantagens do Command Pattern ===");
-        Console.WriteLine("✅ Histórico completo de operações");
-        Console.WriteLine("✅ Undo/Redo ilimitado");
-        Console.WriteLine("✅ Comandos podem ser salvos, enviados por rede, etc.");
-        Console.WriteLine("✅ Facilita implementação de macros");
+
     }
 }

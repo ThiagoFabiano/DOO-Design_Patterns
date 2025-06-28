@@ -35,11 +35,6 @@ public class ObserverDemo
         Console.WriteLine("\n8. Status final:");
         Console.WriteLine($"Status atual do pedido: {order.GetStatus()}");
         
-        Console.WriteLine("\n=== Vantagens do Observer Pattern ===");
-        Console.WriteLine("✅ Baixo acoplamento entre subject e observers");
-        Console.WriteLine("✅ Adicionar/remover observers dinamicamente");
-        Console.WriteLine("✅ Notificação automática de mudanças");
-        Console.WriteLine("✅ Usado em eventos, MVC, reactive programming");
-        Console.WriteLine("✅ Base para muitos frameworks modernos");
+
     }
 }

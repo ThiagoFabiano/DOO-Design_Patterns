@@ -20,10 +20,6 @@ public class ChainOfResponsibilityDemo
         Console.WriteLine("\n3. Testando mais documentos:");
         handler.Handle("Contract"); 
         
-        Console.WriteLine("\n=== Como funciona a cadeia ===");
-        Console.WriteLine("Invoice -> Receipt -> Bill -> null");
-        Console.WriteLine("Cada handler verifica se pode processar o documento.");
-        Console.WriteLine("Se não pode, passa para o próximo na cadeia.");
-        Console.WriteLine("Se ninguém pode processar, exibe erro.");
+
     }
 }

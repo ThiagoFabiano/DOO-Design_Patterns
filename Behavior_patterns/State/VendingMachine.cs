@@ -36,7 +36,6 @@ public class VendingMachine
     {
         currentState = state;
         
-        // Mostra qual estado atual para debug
         string stateName = state.GetType().Name;
         Console.WriteLine($"🔄 Estado mudou para: {stateName}");
     }
